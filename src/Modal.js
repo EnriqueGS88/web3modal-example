@@ -22,7 +22,7 @@ function SelectWalletModal( {isOpen, closeModal }) {
   
     return (
         
-        <Modal isOpen{ isOpen } onClose={ closeModal } isCentered>
+        <Modal isOpen={ isOpen } onClose={ closeModal } isCentered>
             <ModalOverlay />
             <ModalContent w="300px">
                 <ModalHeader>Select Wallet</ModalHeader>
