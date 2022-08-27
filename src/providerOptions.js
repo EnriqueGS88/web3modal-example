@@ -1,19 +1,19 @@
 import WalletConnect from "@walletconnect/web3-provider";
 import CoinbaseWalletSDK from "@coinbase/wallet-sdk";
-import 'dotenv';
+require('dotenv').config();
 
 export const providerOptions = {
     walletlink: {
         package: CoinbaseWalletSDK, // requried
         options: {
             appName: "Web 3 Modal Example", // required
-            infuraId: process.env.INFURA_ID //  infura ID to be checked
+            infuraId: process.env.INFURA_ID
         }
     },
     walletconnect: {
         package: WalletConnect, // required
         options: {
-            infuraId: process.env.INFURA_ID // to be checked again
+            infuraId: process.env.INFURA_ID
         }
     }
 }
