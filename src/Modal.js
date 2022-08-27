@@ -57,7 +57,7 @@ function SelectWalletModal( {isOpen, closeModal }) {
                         <Button
                             variant="outlie"
                             onClick={ () => {
-                                activate( connectors.coinbaseWallet);
+                                activate( connectors.walletConnect);
                                 closeModal();
                             }}
                             w="100%"
@@ -78,7 +78,7 @@ function SelectWalletModal( {isOpen, closeModal }) {
                         <Button
                             variant="outlie"
                             onClick={ () => {
-                                activate( connectors.coinbaseWallet);
+                                activate( connectors.injected);
                                 closeModal();
                             }}
                             w="100%"

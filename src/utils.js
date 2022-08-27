@@ -5,9 +5,9 @@ export const truncateAddress = (address) => {
     );
     if (!match) return address;
     return `${match[1]}…${match[2]}`;
-  };
+};
   
   export const toHex = (num) => {
-    const val = Number(num);
-    return "0x" + val.toString(16);
-  };
+const val = Number(num);
+return "0x" + val.toString(16);
+};
