@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@chakra-ui/icon": "^3.0.9",
     "@chakra-ui/react": "^2.2.9",
     "@coinbase/wallet-sdk": "^3.5.0",
     "@testing-library/jest-dom": "^5.16.5",
@@ -11,10 +12,12 @@
     "@walletconnect/web3-provider": "^1.8.0",
     "@web3-react/core": "^6.1.9",
     "dotenv": "^16.0.1",
+    "ethers": "^5.7.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
-    "web-vitals": "^2.1.4"
+    "web-vitals": "^2.1.4",
+    "web3modal": "^1.9.9"
   },
   "scripts": {
     "start": "react-scripts start",
